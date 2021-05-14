@@ -1,1 +1,1 @@
-worker: node scr/index.js
+worker: npm start
