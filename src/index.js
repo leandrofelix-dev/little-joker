@@ -23,7 +23,7 @@ const commandFiles = fs
 
 bot.login(process.env.TOKEN);
 
-bot.on("ready", () =>{ //AO INICIAR O BOT
+bot.on("ready", () =>{ //INICIAR O BOT
   console.log(`Pronto, bot conectado como ${bot.user.username}`);
   bot.user.setActivity('Dados 🎲', { type: 'PLAYING' });
 });
