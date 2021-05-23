@@ -9,7 +9,8 @@ const execute = (bot, msg, args) => {
 
   const pause_embed = new MessageEmbed()
   .setColor("#9999ff")
-  .setTitle(`Pause ⏸`)
+  .setTitle(`⏸ Pause`)
+  .setDescription(`A musica atual está pausada.`)
 
   msg.channel.send(pause_embed);
 

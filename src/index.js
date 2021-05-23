@@ -25,8 +25,8 @@ bot.login(process.env.TOKEN);
 
 bot.on("ready", () =>{ //AO INICIAR O BOT
   console.log(`Pronto, bot conectado como ${bot.user.username}`);
-  // bot.user.setActivity('Dados 🎲', { type: 'PLAYING' });
-  bot.user.setActivity('⛔ EM MANUTENÇÃO ⛔', { type: 'PLAYING' });
+  bot.user.setActivity('Dados 🎲', { type: 'PLAYING' });
+  // bot.user.setActivity('⛔ EM MANUTENÇÃO ⛔', { type: 'PLAYING' });
 });
 
 bot.on("guildMemberAdd", async (member) => {

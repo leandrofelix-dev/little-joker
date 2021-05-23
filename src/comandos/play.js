@@ -47,7 +47,7 @@ const playSong = async (bot, msg, song) => {
     //   `${msg.member.guild.name}`,
     //   `https://cdn.discordapp.com/icons/${msg.guild.id}/${msg.guild.icon}.png`,
     //   ``)
-      .setDescription(`**${song.title}** \n está sendo reproduzido agora!`);
+      .setDescription(`**${song.title}** está sendo reproduzido agora!`);
 
     msg.channel.send(music_embed);
 
