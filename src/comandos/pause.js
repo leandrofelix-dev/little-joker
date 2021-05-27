@@ -13,7 +13,6 @@ const execute = (bot, msg, args) => {
   .setDescription(`A musica atual está pausada.`)
 
   msg.channel.send(pause_embed);
-
 };
 
 module.exports = {
