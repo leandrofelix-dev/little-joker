@@ -70,6 +70,10 @@ const playSong = async (bot, msg, song) => {
     playSong(bot, msg, queue.songs[0]);
   });
   bot.queues.set(msg.member.guild.id, queue);
+
+  // ABA DE TESTES
+
+  console.log(queue.songs.length);
 };
 
 module.exports = {
