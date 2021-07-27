@@ -1,0 +1,12 @@
+INICIA COM:
+
+npm start
+
+COMMITAR E DEPOIS ADICIONAR:
+git push heroku master
+
+cor: #9999ff
+
+QUEBRA DE LINHA BUGA O CÓDIGO**
+
+npm run test
