@@ -24,7 +24,7 @@ bot.login(process.env.TOKEN);
 
 bot.on("ready", () => { //AO INICIAR O BOT
     console.log(`Pronto, bot conectado como ${bot.user.username}`);
-    bot.user.setActivity('Dados 🎲', { type: 'Use ./help para obter ajuda' });
+    bot.user.setActivity('Use .help para obter ajuda', { type: 'LISTENING' });
     // bot.user.setActivity('⛔ EM MANUTENÇÃO ⛔', { type: 'PLAYING' });
 });
 
